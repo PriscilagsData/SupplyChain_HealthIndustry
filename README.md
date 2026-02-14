@@ -1,33 +1,47 @@
-# 🌍 Supply Chain Analysis – Malaria & HIV Medications  – Health Industry
+# 🌍 Análisis de Supply Chain – Envíos internacionales de medicamentos
+Health Industry
 
-## 🎯 Project Objective
-This project focuses on cleaning and preparing a global supply chain dataset of medications for malaria and HIV.  
-The goal is to ensure data quality and structure as a foundation for future analysis and visualization in BI tools.
+## 🎯 Objetivo del proyecto
+Análisis de la cadena de suministros de medicación para malaria y HIV a nivel mundial.
 
----
-
-## 🌍 Business Context
-Access to essential medicines in developing countries depends on complex global supply chains involving multiple stakeholders, regions, and logistics processes.  
-
-Understanding and preparing this data is a critical step toward identifying inefficiencies, improving distribution, and supporting better decision-making in public health.
+El objetivo es realizar un proceso de ETL y modelado de los datos asegurando su calidad y estructura para una óptima extracción de insights y KPIs de valor para el análisis.
 
 ---
 
-## 📊 Dataset Description
-The dataset contains information about international shipments of medications, including:
+## 🌍 Contexto de negocio
+El acceso a medicamentos esenciales a nivel mundial depende de procesos complejos de Supply Chain envolviendo a múltiples skateholders, regiones y procesos logísticos. 
 
-- Origin and destination countries  
-- Product categories (malaria & HIV medications)  
-- Shipment dates  
-- Quantities and costs  
-- Multiple logistical and administrative fields (33 columns total)  
-
-📁 The original dataset is included in this repository.
+El entendimiento y preparación de estos datos es un paso crítico para identificar ineficiencias, mejorar la distribución y tomar mejores decisiones en la salud pública.
 
 ---
 
-## 🧹 Data Cleaning Process (Power Query / M)
-Data cleaning and transformation were performed using Power Query in Excel.
+## 📊 Descripción de Dataset
+Base de datos pública del SCMS **(Supply Chain Management System)** sobre envíos internacionales de medicamentos de *Malaria y HIV* entre **2006 y 2015** en formato .csv, incluyendo:
+- presupuestos y órdenes,
+- países de origen y destino,
+- fechas y métodos de envío,
+- características y categorización de productos sanitarios,
+- cantidades y costos,
+- múltiples campos logísticos y administrativos.
+(33 *columnas o atributos* y 10.324 *filas o registros*)
+
+[*Fuente web*]( https://catalog.data.gov/dataset/supply-chain-shipment-pricing-data-07d29](https://www.kaggle.com/datasets/princehobby/supply-chain-shipment-dataset?select=Suppy_Chain_Shipment_Data.csv )
+
+*Medicamentos:
+ARV: antirretrovirales (tratamiento HIV),
+ACT: combinación basada en artemisinina (tratamiento malaria),
+ANTM: antimalarias;*
+
+*Tests para diagnóstico:
+HRDT: tests HIV,
+MRDT: tests malaria.*
+
+📁 El [dataset original]( ) se encuentra en este repositorio.
+
+---
+
+## 🧹 Proceso de Data Cleaning (Power Query / M)
+La transformación y limpieza de datos se realizaron en Power Query de Excel.
 
 Key steps included:
 
@@ -37,11 +51,11 @@ Key steps included:
 - Handling of missing and null values  
 - Creation of derived columns for improved analysis  
 
-📄 The full Power Query (M) code is included in the repository for transparency and reproducibility.
+📄 El código de Power Query (M) está incluido en este repositorio para transparencia y reproductibilidad.
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Herramientas Utilizadas
 - Microsoft Excel  
 - Power Query (M language)
 - SQL (modeling)
@@ -49,4 +63,4 @@ Key steps included:
 
 ---
 
-## 📁 Repository Structure
+## 📁 Estructura del Repositorio
