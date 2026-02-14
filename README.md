@@ -36,7 +36,7 @@ ANTM: antimalarias;*
 HRDT: tests HIV,
 MRDT: tests malaria.*
 
-📁 El [dataset original]( ) se encuentra en este repositorio.
+📁 El [dataset original Supply Chain Shipment csv](https://github.com/PriscilagsData/SupplyChain_HealthIndustry/blob/main/Supply_Chain_Shipment_csv.csv) se encuentra cargado en el repositorio.
 
 ---
 
